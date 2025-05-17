@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #204080;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem 0 0 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.top-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.main-column {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-story {
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.main-story img.main-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.categories article {
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.categories article img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.popular-news {
+  flex: 1;
+  background: #e9e9e9;
+  padding: 1rem;
+  border-radius: 5px;
+  min-width: 250px;
+}
+
+.popular-news ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popular-news li {
+  margin-bottom: 0.5rem;
+}
+
+.popular-news a {
+  text-decoration: none;
+  color: #204080;
+}
+
+.search-form {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.search-form button {
+  padding: 0.5rem;
+  background: #204080;
+  color: white;
+  border: none;
+}
+
+.popular-news .news-block {
+  background: #dbe2f1;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.popular-news img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.action-button {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background: #204080;
+  color: white;
+  border: none;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ddd;
+  margin-top: 2rem;
+}
